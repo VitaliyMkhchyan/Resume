@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.left-menu {
+    background-color: #BD5D38;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+}
+
+.img-profile {
+    margin-left: 65px;
+    margin-top: 200px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.menu {
+    display: grid;
+    margin-top: 15px;
+}
+
+.menu-btn a{
+    background-color: #BD5D38;
+    color: #b3b3b3;
+    margin-left: 80px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 9px;
+    text-decoration: none;
+}
+
+/* При наводке */
+.menu-btn a:hover {
+    color: #dddddd;
+}
+
+/* При нажатии */
+.menu-btn a:active {
+    color: #ffffff;
+}
+
+.info {
+    height: 100%;
+    margin-left: 250px;
+}
+
+.about {
+    margin-left: 100px;
+    padding-top: 350px;
+}
+
+.name {
+    color: #808080;
+    font-size: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info-person {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #a3a3a3;
+}
+
+.messengers {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.mess {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+
+.experience {
+    margin-top: 1000px;
+}
+
+.rabota {
+    margin-left: 100px; 
+}
+
+.skills {
+    margin-left: 100px;
+    margin-top: 1000px;
+}
+
+.education {
+    margin-left: 100px;
+    margin-top: 1000px;
+}
+
+.block {
+    margin: 500px;
+    height: 10px;
+}
+
+.portfolio {
+    margin-top: 1000px;
+    margin-left: 100px;
+}
+
+.awards {
+    margin-top: 1000px;
+    margin-left: 100px; 
+}
+
+.p-text {
+    font-size: 18px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: #757575;
+}
+
+h2 {
+    color: #808080; 
+    font-size: 48px;
+}
+
+p.p {
+    color: #868686; 
+    font-size: 22px;
+
+}
+
+p.p a:hover {
+    color: #858585;
+}
+
+p.p a {
+    color: #252525;
+    text-decoration: none;
+}
